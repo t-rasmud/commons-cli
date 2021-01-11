@@ -430,6 +430,7 @@
               <compilerArgs combine.children="append">
                 <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
                 <arg>-J-Xbootclasspath/p:${settings.localRepository}/com/google/errorprone/javac/${javac.version}/javac-${javac.version}.jar</arg>
+                <arg>-AusePolyDefault</arg>>
               </compilerArgs>
             </configuration>
           </plugin>
